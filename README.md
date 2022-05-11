@@ -94,6 +94,9 @@ stanu 1. Pozostałe reguły analogicznie.
 Wartość początkowa dla t=0:
 00000000000000000000000000000000100000000000000000000000000000000
 
+W programie trzeba odpowiednio zamienić cyfrę 0 na symbol spacji, a cyfrę 1 na
+symbol #
+
 Rezultatem działania programu ma być graficzna reprezentacja zachowania się
 układu dla t od 0 do 31 tj. trójkąt Sierpińskiego.
 
