@@ -1,9 +1,16 @@
+
+/* Tutaj dodaj dyrektywy preporcesora oraz deklaracje funkcji        */
+
 int main(){
 
-  char sierpinski[t][x];
+  char sierpinski[T][X];
 
   /* Tutaj dodaj swój kod. */
-  /* Korzystacie z notacji tablicowej */
-  
+
+  /* W tym miejscu osoba czytająca kod powinna już rozumieć,         */
+  /* jak działa ten program.                                         */ 
   return 0;
 }
+
+
+/* Tutaj dodaj definicje funkcji                                     */
