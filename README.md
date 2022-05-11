@@ -67,9 +67,9 @@ int tab[2][2][3] = {
 ```
 
 ### Zadanie
-Zaimplementuj jednowymiarowy automat komórkowy działający na tablicy
-32x65 (t,x). W każdym wierszu będzie jedna iteracja po
-czasie. Zachowanie układu określają reguły:
+Zaimplementuj jednowymiarowy automat komórkowy działający na tablicy 32x65.
+Każdy wiersz tablicy odpowiada jednej iteracji po czasie *t*. Zachowanie
+układu określają reguły:
 
 0 < 0 > 0 —> 0
 
@@ -87,15 +87,15 @@ czasie. Zachowanie układu określają reguły:
 
 1 < 1 > 1 —> 0
 
-0 < 0 > 1 —> 1: oznacza, że jeśli układ dla t=a jest w stanie < 0 > i
-po lewej stronie jest 0, a po prawej jest 1, to dla t=a+1 przejdź do
+0 < 0 > 1 —> 1: oznacza, że jeśli układ dla *t*=a jest w stanie < 0 > i
+po lewej stronie jest 0, a po prawej jest 1, to dla *t*=a+1 przejdź do
 stanu 1. Pozostałe reguły analogicznie.
 
-Wartość początkowa: t=0 —> x = 0...010...0 - środkowa pozycja jest
-równa 1; pozostałe 0.
+Wartość początkowa dla t=0:
+00000000000000000000000000000000100000000000000000000000000000000
 
-Rezultatem działania ma być graficzna reprezentacja zachowania się
-układu dla t od 0 do 31 t.j. trójkąt Sierpińskiego.
+Rezultatem działania programu ma być graficzna reprezentacja zachowania się
+układu dla t od 0 do 31 tj. trójkąt Sierpińskiego.
 
 ```zsh
                                 #                                
